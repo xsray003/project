@@ -166,7 +166,7 @@ h3{color: #2F86A6;
 /* our company section */
 
 .our-company{
-  height: 600px;
+  height: 550px;
   margin-bottom: 60px;
 }
 .company-description{
@@ -245,6 +245,12 @@ h3{color: #2F86A6;
   background: linear-gradient(#77a809, #89c403);
 }
 
+.map-area{height: 515px;
+  margin-bottom: 30px;
+}
+.map{
+  margin:30px 0;
+  }
 /* footer section */
 
 footer{
