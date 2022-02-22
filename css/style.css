@@ -1,0 +1,285 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color:#b6b3b8
+}
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding:0 50px ;
+}
+.clearfix{
+  clear: both;
+ content: "";
+ display:table;
+}
+.main-header{
+  width: 100%
+
+}
+.left{
+  float: left;
+  padding-top: 17px
+}
+.right{
+  float: right;
+}
+.right ul li {
+  display: inline-block;
+  padding: 10px 15px 5px 15px;
+  font-size: 22px;
+}
+.right a{
+  font-family: 'Montserrat', sans-serif;
+  color: #2C3333;
+  text-decoration: none;
+}
+.right a:hover{
+  color: #FDEFF4;
+  text-shadow: 4px 4px 5px #655D8A , 6px 6px 10px #121212;
+
+}
+
+/* Banner section customizatuion */
+.ione{
+  width: 1920px;
+  height: 550px;
+  position: relative;
+}
+h1{
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  bottom:515px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:72px;
+  color: #F2FFE9
+}
+h1:hover{
+  text-shadow: 4px 4px 7px #FC9918, 8px 8px 15px #370665 ;
+  }
+.baner-section a{
+  text-decoration: none;
+  }
+/* cards with row and column section */
+
+.card-section{
+  margin: 30px 0;
+}
+h2{
+  font-family:'Montserrat', sans-serif;
+  padding-top: 20px;
+  color: #2F86A6
+}
+.row{
+  width: 100%
+}
+.column{
+  float: left;
+  text-align: center;
+  background-color:#efca5c;
+  width: 260px;
+  margin:12px;
+}
+.column:hover{
+  background: linear-gradient(#E5890A,white);
+}
+.column img{
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.image-border{
+  border-top: 5px solid white;
+}
+.card-para{
+  padding: 10px;
+  font-family:'Merriweather', serif;
+  color: #544179;
+
+}
+
+/* third section */
+
+.third-section{
+  text-align: center;
+  padding: 15px;
+  height: 1110px;
+  margin: 30px 0;
+}
+.third-section p{
+  font-family: 'Merriweather', serif;
+}
+ .third-section h2{
+  font-size: 35px;
+  color: #95CD41
+}
+h3{color: #2F86A6;
+  font-family:'Montserrat', sans-serif;
+}
+
+.c-one{
+  float: left;
+  margin: 10px;
+  text-align: center;
+  width: 530px;
+  padding-top: 50px;
+}
+
+.c-one img{
+  height: 250px;
+  width: 350px;
+  border-radius: 10px
+}
+/* fourth section */
+
+.fourth-section{
+  height: 1105px;
+  text-align: center;
+  margin: 30px 0;
+  padding: 15px;
+  background-color: #c9f3e8;
+}
+.fourth-section h2{
+  font-family:'Montserrat', sans-serif;
+  font-size: 35px;
+  color: #95CD41;
+}
+.fourth-section p{
+  font-family: 'Merriweather', serif;
+}
+
+.c-two{
+  float: left;
+  margin: 10px;
+  text-align: center;
+  width: 350px;
+  padding-top: 50px;
+}
+.c-two img{
+  height: 200px;
+  width: 300px;
+  border-radius: 10px
+}
+/* our company section */
+
+.our-company{
+  height: 600px;
+  margin-bottom: 60px;
+}
+.company-description{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.company-description h2{
+  font-family:'Montserrat', sans-serif;
+  color: #95CD41;
+  font-size: 35px;
+}
+.company-description-para{
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  padding-top: 10px;
+}
+.our-company-row{
+  width: 100%
+}
+.our-company-column{
+  width: 48%;
+  float: left;
+  margin: 0 8px;
+  font-size: 18px;
+  font-family:'Merriweather', serif;
+  color: #544179
+}
+.about-text{
+  font-size: 15px;
+  font-family:'Merriweather', serif;
+  line-height: 1.5;
+  color: #544179;
+  }
+  .list{
+    margin-top: 15px;
+    padding-left: 0;
+    color: #544179;
+  }
+  .list li{
+    margin-top: 10px;
+    list-style: none;
+  }
+  .arrow-point{
+    float: left;
+    height: 20px;
+  }
+  .point{
+    padding-left: 30px;
+  }
+  .buttonClass{
+    position: absolute;
+    margin-top: 20px;
+  }
+.buttonClass {
+  font-size:20px;
+  font-family:Arial;
+  width:108px;
+  height:35px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#74b807;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #a4e271;
+  text-shadow:inset 0px 1px 0px #528009;
+  background:linear-gradient(#89c403, #77a809);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#77a809, #89c403);
+}
+
+/* footer section */
+
+footer{
+  height: 400px;
+  margin-top: 30px;
+  background-color: black;
+}
+
+.footer-row-clearfix{
+  width: 100%
+}
+
+.footer-column{
+  float: left;
+}
+.clmn{
+  width: 255px;
+  float: left;
+  margin: 12px;
+}
+.listed-items{
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  }
+  .info2{
+    font-weight: 50;
+    padding-top: 15px;
+  }
+.f-tags{
+  text-decoration: none;
+  color: #95CD41;
+  font-family:'Montserrat', sans-serif;
+  }
+.f-tags:hover{
+color: #2F86A6;
+}
